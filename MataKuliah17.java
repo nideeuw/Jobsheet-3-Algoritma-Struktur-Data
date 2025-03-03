@@ -7,7 +7,7 @@ public class MataKuliah17 {
     public int jumlahJam;
 
     public MataKuliah17(){
-        
+
     }
 
     public MataKuliah17(String kode, String nama, int sks, int jumlahJam) {
@@ -31,6 +31,13 @@ public class MataKuliah17 {
         System.out.print("Jumlah Jam  : ");
         this.jumlahJam = sc.nextInt();
 
+        System.out.println("-----------------------------------------");
+    }
+    public void cetakInfo() {
+        System.out.println("Kode        : " + kode);
+        System.out.println("Nama        : " + nama);
+        System.out.println("SKS         : " + sks);
+        System.out.println("Jumlah Jam  : " + jumlahJam);
         System.out.println("-----------------------------------------");
     }
 }
